@@ -1,108 +1,128 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  <meta charset="UTF-8">
+  <title>ATEEZ RPS 취향표</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background: #f8f8f8;
+      margin: 20px;
+    }
+
+    .buttons {
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 10px 16px;
+      margin: 5px;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .otp { background: #ff4a4b; }       /* 빨강 */
+    .interest { background: #ffc83d; color: black; } /* 노랑 */
+    .like { background: #38e1f2; color: black; }     /* 파랑 */
+    .okay { background: #3dc451; }      /* 초록 */
+    .neutral { background: #b0b0b0; color: black; }  /* 회색 */
+    .follow { background: #b96bff; }    /* 보라 */
+    .danger { background: #000; }       /* 검정 */
+
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      min-width: 50px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    th {
+      background: #eee;
+    }
   </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="ko"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;ATEEZ RPS 취향표&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-family: "Pretendard", sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: #f8f8f8;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.buttons {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>button {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 10px 16px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border: none;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 6px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: white;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.otp { background: #ff4b4b; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.interest { background: #ffc83d; color: black; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.like { background: #38c172; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.okay { background: #3da5ff; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.neutral { background: #bcbcbc; color: black; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.follow { background: #b96bff; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.danger { background: #000000; }</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>table {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin: 0 auto;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-collapse: collapse;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>th, td {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #ccc;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>min-width: 50px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2&gt;ATEEZ RPS 취향표&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="buttons"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button class="otp"&gt;OTP&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button class="interest"&gt;관심있음&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button class="like"&gt;호감&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button class="okay"&gt;괜찮음&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button class="neutral"&gt;별생각 없음&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button class="follow"&gt;캐해 따라&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button class="danger"&gt;지뢰&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;table id="rpsTable"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;th&gt;&lt;/th&gt;&lt;th&gt;홍중&lt;/th&gt;&lt;th&gt;성화&lt;/th&gt;&lt;th&gt;윤호&lt;/th&gt;&lt;th&gt;여상&lt;/th&gt;&lt;th&gt;산&lt;/th&gt;&lt;th&gt;민기&lt;/th&gt;&lt;th&gt;우영&lt;/th&gt;&lt;th&gt;종호&lt;/th&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;tr&gt;&lt;th&gt;홍중&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;성홍&lt;/td&gt;&lt;td&gt;윤몽&lt;/td&gt;&lt;td&gt;솽홍&lt;/td&gt;&lt;td&gt;낫홍&lt;/td&gt;&lt;td&gt;솜몽&lt;/td&gt;&lt;td&gt;웡홍&lt;/td&gt;&lt;td&gt;쫑홍&lt;/td&gt;&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;tr&gt;&lt;th&gt;성화&lt;/th&gt;&lt;td&gt;홍섷&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;윤섷&lt;/td&gt;&lt;td&gt;솽섷&lt;/td&gt;&lt;td&gt;낫섷&lt;/td&gt;&lt;td&gt;밍섷&lt;/td&gt;&lt;td&gt;웡섷&lt;/td&gt;&lt;td&gt;쫑섷&lt;/td&gt;&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;tr&gt;&lt;th&gt;윤호&lt;/th&gt;&lt;td&gt;몽윤&lt;/td&gt;&lt;td&gt;섷윤&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;솽윦&lt;/td&gt;&lt;td&gt;낫윤&lt;/td&gt;&lt;td&gt;밍윦&lt;/td&gt;&lt;td&gt;웡윤&lt;/td&gt;&lt;td&gt;쫑윦&lt;/td&gt;&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;tr&gt;&lt;th&gt;여상&lt;/th&gt;&lt;td&gt;홍솽&lt;/td&gt;&lt;td&gt;섷솽&lt;/td&gt;&lt;td&gt;윦여&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;낫여&lt;/td&gt;&lt;td&gt;솜여&lt;/td&gt;&lt;td&gt;웡상&lt;/td&gt;&lt;td&gt;쫑상&lt;/td&gt;&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;tr&gt;&lt;th&gt;산&lt;/th&gt;&lt;td&gt;홍낫&lt;/td&gt;&lt;td&gt;섷낫&lt;/td&gt;&lt;td&gt;윤낫&lt;/td&gt;&lt;td&gt;여낫&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;밍낫&lt;/td&gt;&lt;td&gt;웡낫&lt;/td&gt;&lt;td&gt;쫑낫&lt;/td&gt;&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;tr&gt;&lt;th&gt;민기&lt;/th&gt;&lt;td&gt;홍솜&lt;/td&gt;&lt;td&gt;섷밍&lt;/td&gt;&lt;td&gt;윦밍&lt;/td&gt;&lt;td&gt;솽밍&lt;/td&gt;&lt;td&gt;낫밍&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;웡밍&lt;/td&gt;&lt;td&gt;쫑밍&lt;/td&gt;&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;tr&gt;&lt;th&gt;우영&lt;/th&gt;&lt;td&gt;홍웡&lt;/td&gt;&lt;td&gt;섷웡&lt;/td&gt;&lt;td&gt;윤웡&lt;/td&gt;&lt;td&gt;상웡&lt;/td&gt;&lt;td&gt;낫웡&lt;/td&gt;&lt;td&gt;밍웡&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;쫑웡&lt;/td&gt;&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;tr&gt;&lt;th&gt;종호&lt;/th&gt;&lt;td&gt;홍쫑&lt;/td&gt;&lt;td&gt;섷쫑&lt;/td&gt;&lt;td&gt;윤쫑&lt;/td&gt;&lt;td&gt;솽쫑&lt;/td&gt;&lt;td&gt;낫쫑&lt;/td&gt;&lt;td&gt;솜쫑&lt;/td&gt;&lt;td&gt;웡쫑&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/table&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>let currentColor = null;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>const buttons = document.querySelectorAll("button");</p>
-<p class="p1"><span class="Apple-converted-space">    </span>const table = document.getElementById("rpsTable");</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>buttons.forEach(btn =&gt; {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>btn.addEventListener("click", () =&gt; {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>currentColor = window.getComputedStyle(btn).backgroundColor;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>buttons.forEach(b =&gt; b.style.outline = "");</p>
-<p class="p1"><span class="Apple-converted-space">        </span>btn.style.outline = "3px solid #333";</p>
-<p class="p1"><span class="Apple-converted-space">      </span>});</p>
-<p class="p1"><span class="Apple-converted-space">    </span>});</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>table.addEventListener("click", e =&gt; {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>if (e.target.tagName === "TD" &amp;&amp; currentColor) {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>e.target.style.backgroundColor = currentColor;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+  <h2>ATEEZ RPS 취향표</h2>
+
+  <div class="buttons">
+    <button class="otp" data-color="#ff4a4b">OTP</button>
+    <button class="interest" data-color="#ffc83d">관심있음</button>
+    <button class="okay" data-color="#3dc451">호감</button>
+    <button class="like" data-color="#38e1f2">괜찮음</button>
+    <button class="neutral" data-color="#b0b0b0">별생각 없음</button>
+    <button class="follow" data-color="#b96bff">캐해 따라</button>
+    <button class="danger" data-color="#000000">지뢰</button>
+  </div>
+
+  <table>
+    <tr>
+      <th></th>
+      <th>홍중</th>
+      <th>성화</th>
+      <th>윤호</th>
+      <th>여상</th>
+      <th>산</th>
+      <th>민기</th>
+      <th>우영</th>
+      <th>종호</th>
+    </tr>
+    <tr><th>홍중</th><td></td><td>성홍</td><td>윤몽</td><td>솽홍</td><td>낫홍</td><td>솜몽</td><td>웡홍</td><td>쫑홍</td></tr>
+    <tr><th>성화</th><td>홍섷</td><td></td><td>윤섷</td><td>솽섷</td><td>낫섷</td><td>밍섷</td><td>웡섷</td><td>쫑섷</td></tr>
+    <tr><th>윤호</th><td>몽윤</td><td>섷윤</td><td></td><td>솽윦</td><td>낫윤</td><td>밍윦</td><td>웡윤</td><td>쫑윦</td></tr>
+    <tr><th>여상</th><td>홍솽</td><td>섷솽</td><td>윦여</td><td></td><td>낫여</td><td>솜여</td><td>웡상</td><td>쫑상</td></tr>
+    <tr><th>산</th><td>홍낫</td><td>섷낫</td><td>윤낫</td><td>여낫</td><td></td><td>밍낫</td><td>웡낫</td><td>쫑낫</td></tr>
+    <tr><th>민기</th><td>홍솜</td><td>섷밍</td><td>윦밍</td><td>솽밍</td><td>낫밍</td><td></td><td>웡밍</td><td>쫑밍</td></tr>
+    <tr><th>우영</th><td>홍웡</td><td>섷웡</td><td>윤웡</td><td>상웡</td><td>낫웡</td><td>밍웡</td><td></td><td>쫑웡</td></tr>
+    <tr><th>종호</th><td>홍쫑</td><td>섷쫑</td><td>윤쫑</td><td>솽쫑</td><td>낫쫑</td><td>솜쫑</td><td>웡쫑</td><td></td></tr>
+  </table>
+
+  <script>
+    let selectedColor = null;
+
+    // 버튼 클릭 시 색상 선택
+    document.querySelectorAll(".buttons button").forEach(btn => {
+      btn.addEventListener("click", () => {
+        selectedColor = btn.getAttribute("data-color");
+
+        // 선택된 버튼 테두리 표시
+        document.querySelectorAll(".buttons button").forEach(b => b.style.outline = "none");
+        btn.style.outline = "3px solid black";
+      });
+    });
+
+    // 색상값을 통일된 rgb 형태로 변환 (비교용)
+    function toRGB(color) {
+      const temp = document.createElement("div");
+      temp.style.color = color;
+      document.body.appendChild(temp);
+      const rgb = getComputedStyle(temp).color;
+      document.body.removeChild(temp);
+      return rgb;
+    }
+
+    // 셀 클릭 시 색칠 / 같은 색이면 제거
+    document.querySelectorAll("td").forEach(cell => {
+      cell.addEventListener("click", () => {
+        if (!selectedColor) return;
+        const current = getComputedStyle(cell).backgroundColor;
+        const target = toRGB(selectedColor);
+        if (current === target) {
+          cell.style.backgroundColor = "";
+        } else {
+          cell.style.backgroundColor = selectedColor;
+        }
+      });
+    });
+  </script>
 </body>
 </html>
